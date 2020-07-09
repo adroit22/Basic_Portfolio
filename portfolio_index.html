@@ -1,0 +1,81 @@
+html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link type="text/css" id="stylesheet" rel="stylesheet" href="portfolio_layout.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+
+<body>
+        <div class="grid-container">
+                
+                <div class="item1" id="nav">
+                        <ul>
+                            <li><a href="#nav">HOME</a></li>
+                            <li><a href="#work">WORK</a></li>
+                            <li><a href="#about">ABOUT ME</a></li>
+                            <li><a href="#contact" >CONTACT</a></li>
+                            </ul> 
+              
+                </div>
+                <div class="item2" id="background">
+                        <h1><b>Samiksha Mathur</b></h1>
+                        <h2>Web Developer</h2>
+                   </div>
+                
+                <div class="item3" id="work">
+                        <div class="heading">My Work</div>
+                        <div class="picture">
+                                <div class="column">
+                                        <img class="project" id="pic1" src="vocabprep.png" />
+                                        <p>Vocabulary Builder App</p>                                        
+                                </div>
+                                <div class="column">
+                                        <img class="project" id="pic1" src="canvas.png" />
+                                        <p>Canvas with Device Motion</p>                                        
+                                </div>
+                                <div class="column">
+                                        <img class="project" id="pic1" src="newsapp.png" />
+                                        <p>Latest Technology News App</p>                                        
+                                </div>                                
+                                <div class="column">
+                                        <img class="project" id="pic2" src="zoo.png" />
+                                        <p>Responsive Website</p>
+                                </div>
+                </div>
+                </div>
+                <div class="item4" id="about">
+                        <p>
+                                <h3><b>About Me</b></h3>
+
+                               <span id="img-about"> <img class="my-image" src="about1.jpg" > </span>
+                                    Hello there!! My name is Samiksha Mathur and this is my little corner on the internet. 
+                                    I am doing Master of Computer Science. 
+                                    Apart from developing web applications, I like hiking and spending time with nature. I enjoy creating things that focus on creativity, simplicity and elegance. 
+                                  </p>
+
+                </div>
+                <div class="item5" id="contact">
+                        <h3><b>Contact</b></h3><br><br>                        
+                        <a class="contact_info" href="https://www.linkedin.com/in/samikshamathur" target="_blank"><i class="fa fa-linkedin-square" style="font-size:72px" ></i></a>
+                        <a class="contact_info" href="https://github.com/adroit22" target="_blank"><i class="fa fa-github" style="font-size:72px" ></i></a>
+                        <a class="contact_info" href="https://www.facebook.com/samiksha.mathur" target="_blank"><i class="fa fa-facebook-square" style="font-size:72px" ></i></a>
+                        <a class="contact_info" href="https://www.facebook.com/samiksha.mathur" target="_blank"><i class="fa fa-instagram" style="font-size:72px" ></i></a>
+                        <a class="contact_info" href="mathur.samiksha7@gmail.com" target="_blank"><i class="fa fa-envelope" style="font-size:72px" ></i></a>
+                 </div>
+                <div class="item6" id="footer">
+                        Copyright@samiksha.mathur
+
+                </div>
+                </div>
+                <script>
+                var dom = document.getElementById("background");
+                function doSomething(){
+                dom.innerHTML ="<p>nothing</p>"}
+
+                <button onClick="doSomething()">doSomething</button>
+        </script>
+
+</body>
